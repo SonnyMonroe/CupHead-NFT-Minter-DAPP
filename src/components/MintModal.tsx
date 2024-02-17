@@ -35,7 +35,7 @@ function MintModal({ ...rest }: DialogProps) {
         <Dialog {...rest}>
             <DialogContent className="sm:max-w-[450px] bg-slate-800 border-slate-700 text-slate-200">
                 <DialogHeader>
-                    <DialogTitle>Mint Your Cyberpunk Character</DialogTitle>
+                    <DialogTitle>Mint Your Cup Head Character!</DialogTitle>
                 </DialogHeader>
                 {/* minting form */}
                 <IPFSUploader onSuccess={(url) => setImageUrl(url)} />

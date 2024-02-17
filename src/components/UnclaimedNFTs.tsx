@@ -13,7 +13,7 @@ function UnclaimedNFTs() {
             <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
                 {nfts?.map((nft: any, index) => (
                     <NFTCard
-                        key={index}
+                        key={index} //This might be where the Minting function is broken where it just mints the first
                         name={nft.name}
                         description={nft.description}
                         id={nft.id}
